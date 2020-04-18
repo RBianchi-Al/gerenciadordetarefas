@@ -1,0 +1,12 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import ListarTarefas from './listar-tarefas'
+
+describe('tese do component de listagem de tarefas', () => {
+  it('deve renderizar o projeto sem erros', () => {
+    const div = document.createElement('div');
+    ReactDOM.render(<ListarTarefas/>, div);
+    ReactDOM.unmountComponentAtNode(div);
+  });
+  
+});
