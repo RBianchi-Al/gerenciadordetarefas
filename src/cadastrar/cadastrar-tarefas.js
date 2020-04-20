@@ -39,7 +39,7 @@ function handleFecharModal(){
   return (
   <>
   <h3 className="text-center">Cadastrar</h3>
-  <Jumbotron>
+  <Jumbotron className="container">
     <Form
     validated={formValidado}
     noValidate
